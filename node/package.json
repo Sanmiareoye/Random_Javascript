@@ -1,0 +1,15 @@
+{
+  "name": "nodejscourse",
+  "version": "1.0.0",
+  "description": "NodeJs crash course",
+  "license": "MIT",
+  "author": "Sanmi Areoye",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --env-file=.env server2.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

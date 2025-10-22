@@ -1,0 +1,20 @@
+if your app is in typescript you need tsx and a tsconfig file.
+for tsconfig boilerplate: npx tsc --init
+
+Prisma commands
+
+prisma generator - generates client code to use in your code
+
+npm install prisma @prisma/client - installs prims and its client
+npx prisma init - initialises our prisma schema
+
+npx prisma migrate dev --name init <- apply schema changes to db and give a name to it.
+npx prisma generate <- generate prisma client and access it in your code.
+
+npx prisma db seed <- seed the db
+
+findUnique, takes an argument of any unqie field
+
+const users = await prisma.user.findMany({
+    where: { isMarried: false, age: { gt: 30 } },
+  }); gt is greater than, less than lt etc

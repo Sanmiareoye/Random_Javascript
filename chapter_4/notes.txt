@@ -1,0 +1,8 @@
+middleware - all the code for authentication
+routes - for routes, you know what it is
+db - for all the database stuff
+public -
+n
+pm install prisma @prisma/client pg
+
+to access the db through docker docker exec -it postgres-db psql -U postgres -d db name

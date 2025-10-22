@@ -1,0 +1,4 @@
+middleware - all the code for authentication
+routes - for routes, you know what it is
+db - for all the database stuff
+public -
